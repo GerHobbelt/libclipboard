@@ -4,25 +4,30 @@ libclipboard [![Linux/OS X Build Status](https://travis-ci.org/jtanx/libclipboar
 A cross-platform clipboard library.
 
 ## Currently supported actions
+
 * Checking clipboard data ownership
 * Clearing clipboard
 * Retrieving/setting text (UTF-8)
 
 ## Supported platforms
+
 * Windows
 * Linux (X11)
 * OS X (Cocoa)
 
 ## Platforms to be supported in the future
+
 * Linux (Wayland) (maybe)
 
 ## Requirements
+
 * cmake
 * gtest & g++ >= 4.7 (optional; for unit testing)
 * libxcb-dev (for Linux/X11)
 * pthreads (for Linux/X11)
 
 ## Building
+
 Quickstart
 ~~~~~
 git clone https://github.com/jtanx/libclipboard
